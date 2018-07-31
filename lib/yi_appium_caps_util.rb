@@ -44,7 +44,8 @@ class YiAppiumCapsUtil
       "automationName"=>"YouiEngine",
       "deviceName"=>"DeviceName",
       "platformName"=>"#{platform_name}",
-      "youiEngineAppAddress"=>""},
+      "youiEngineAppAddress"=>"",
+      "showXcodeLog"=>false},
       "parameters"=>{"formFactor"=>"#{form_factor}"}}
 
       File.open("./appium.txt","w") do |f|
